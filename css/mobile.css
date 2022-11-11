@@ -1,0 +1,188 @@
+:root {
+    --gray: #434344;
+    --purple: #4d13d1;
+    --fnt-lrg: 3.8rem;
+    --fnt-mdm: 2rem;
+    --fnt-smll: 1.6rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.4;
+    font-size: 62.5%;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+ul { list-style: none; }
+a { text-decoration: none; }
+
+.header__nvbr {
+    height: 7rem;
+}
+
+.elmt--flx, .cntnr--flx {
+    display: flex;
+    align-items: center;
+}
+
+.elmt--flx-btwn, .cntnr--flx-btwn {
+    justify-content: space-between;
+}
+
+.elmt--grd, .cntnr--grd {
+    display: grid;
+}
+
+.elmt--wdth, .cntnr--wdth {
+    width: 85%;
+}
+
+.elmt--mrgn, .cntnr--mrgn {
+    margin: 0 auto;
+}
+
+.img__tt {
+    width: 100%;
+}
+
+.fnt--lrg {
+    font-size: var(--fnt-lrg);
+}
+
+.fnt--mdm {
+    font-size: var(--fnt-mdm);
+}
+
+.fnt--smll {
+    font-size: var(--fnt-smll);
+}
+
+.fnt--bld {
+    font-weight: 800;
+}
+
+.clr--gry {
+    color: var(--gray);
+}
+
+.clr--prpl {
+    color: var(--purple);
+}
+
+.clr--wht {
+    color: white;
+}
+
+.fnt--600 {
+    font-weight: 600;
+}
+
+.bttn {
+    width: 100%;
+    margin: 2rem 0;
+    border-radius: 0.4rem;
+    border: transparent;
+}
+
+.bttn--hght {
+    height: 4rem;
+}
+
+.hero__alink {
+    margin-bottom: 2rem;
+    text-decoration: 2px underline var(--purple);
+}
+
+.txt--algn {
+    text-align: center;
+}
+
+.elmt--bckgrnd-prpl, .cntnr--bckgrnd-prpl {
+    background-color: var(--purple);
+}
+
+.lst__marker {
+    list-style-position: inside;
+}
+
+.lst__marker > li::before {
+    content: url('../assets/checkmark.svg');
+    margin-right: 1rem;
+}
+
+.cntnr__reasons {
+    margin: 8rem 0 5rem 0;
+}
+
+.cntnr__reasons__sctn {
+    margin-top: 5rem;
+    gap: 3rem 0;
+}
+
+.reasons__ttl {
+    margin: 0.6rem 0 1.2rem;
+}
+
+.cntnr__diversity {
+    padding: 4rem 3rem 0px 3rem;
+}
+
+.diversisty--brd-rds {
+    border-radius: 1rem;
+}
+
+.bttn__scnd {
+    margin: 2rem 0 5rem 0;
+}
+
+.people__artcl {
+    padding: 2rem;
+}
+
+.elmt--brd, .cntnr--brd {
+    border-radius: 0.8rem;
+    border: 1px solid gainsboro;
+}
+
+.cntnr__people {
+    margin: 5rem 0 8rem;
+    gap: 8rem 0;
+}
+
+.elmt--clmn-gp, .cntnr--clmn-gp {
+    column-gap: 1rem;
+}
+
+.people__prgrph {
+    margin: 1rem 0 3rem 0;
+}
+
+.people__lnk {
+    height: 100%;
+    place-content: center;
+}
+
+.footer__cntnr {
+    margin: 5rem auto;
+}
+
+.footer__sctn > ul > li:first-child {
+    margin: 3rem 0 1.5rem 0;
+}
+
+.footer__sctn > ul > li {
+    margin: 0.5rem 0;
+}
+
+
+
+.item__frst {
+    color: black;
+    font-size: 1.8rem;
+}
